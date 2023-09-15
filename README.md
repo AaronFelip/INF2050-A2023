@@ -20,7 +20,7 @@ Ce dépot contient les corrections des labos du groupe 30, n'hésitez pas à le 
 - Semaine 15: à venir
 
 ## Me rejoindre:
-Si vous avez des questions sur la matière vu en classe ou dans les labos, je vous recommande de poser vos questions dans le Discord du cours. L'un de vos camarades vous répondra, autrement si vous avez besoin d'une aide personnalisé vous pouvez me rejoindre par [courriel](osorio_arancibia.aaron@courrier.uqam.ca).
+Si vous avez des questions sur la matière vu en classe ou dans les labos, je vous recommande de poser vos questions dans le Discord du cours. L'un de vos camarades vous répondra, autrement si vous avez besoin d'une aide personnalisé vous pouvez me rejoindre par [courriel](mailto:osorio_arancibia.aaron@courrier.uqam.ca?subject=Aide%20labo%20INF2050)  .
 
 ## Liens utiles:
 - [IDE IntelliJ - gratuit pour les étudiants](https://www.jetbrains.com/pycharm/)
@@ -43,4 +43,4 @@ Alors, ce sera en snake_case ou camelCase? Simple ou double interligne? En fran�
   &nbsp;
 
 > [!NOTE]
-> License Apache 2.0 - Vous êtes libres d'utiliser, modifier et distribuer mon code, tant que vous citez © l'auteur original, c'est-à-dire moi ou votre prof dans certains cas :rage2:
+> License Apache 2.0 - Vous êtes libres d'utiliser, modifier et distribuer mon code, tant que vous citez © l'auteur original, c'est-à-dire moi ou votre prof si il a été fourni par ce dernier.

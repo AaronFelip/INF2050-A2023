@@ -28,11 +28,11 @@ une à la suite de l'autre.
 ``` 
 - mkdir nomDeVotreDossier
 - cd nomDeVotreDossier
-- git init
+- git init --initial-branch=main
+- git remote add origin https://gitlab.info.uqam.ca/aaron/inf2050-labo2.git // changer l'URL par la vôtre
 - vim readme.txt \\Écrire son nom dans le fichier, puis sauvegarder (esc puis :wq)
 - git add readme.txt
 - git commit -m "Ajout d'un fichier Readme"
-- git remote add origin "adresse de votre dépôt distant"
 - git push -u origin main
 ``` 
 
@@ -51,8 +51,8 @@ une à la suite de l'autre.
 
 ``` 
 - cd ..
-- rm rf nomDeVotreDossier
-- git clone "adresse de votre dépôt distant"
+- rm -rf nomDeVotreDossier
+- git clone https://gitlab.info.uqam.ca/aaron/inf2050-labo2.git // changer l'URL par la vôtre
 ``` 
 
 5. Ajoutez un programme Java dans votre dépôt. Votre programme doit être un

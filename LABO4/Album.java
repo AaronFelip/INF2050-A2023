@@ -34,7 +34,7 @@ public class Album {
      * @param rating Le rating (note) de l'album ou du single.
      */
     public Album ( String type, String artiste, String titre, int publication, int rating ){
-        this.artiste=artiste;
+        this.artiste = artiste;
         this.titre = titre;
         this.type = type;
         this.publication = publication;
@@ -48,7 +48,6 @@ public class Album {
      */
     public String getType() {
 
-
         return type;
 
     }
@@ -59,7 +58,6 @@ public class Album {
      * @return Le titre de l'album ou du single.
      */
     public String getTitre() {
-
 
         return titre;
 
@@ -72,7 +70,6 @@ public class Album {
      */
     public String getArtiste() {
 
-
         return artiste;
 
     }
@@ -84,7 +81,6 @@ public class Album {
      */
     public int getPublication() {
 
-
         return publication;
 
     }
@@ -95,7 +91,6 @@ public class Album {
      * @return Le rating (note) de l'album ou du single.
      */
     public int getRating() {
-
 
         return rating;
 

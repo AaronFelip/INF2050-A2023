@@ -7,7 +7,7 @@ Ce dépot contient les corrections des labos du groupe 30, n'hésitez pas à le 
 - Semaine 2: [Labo1 - Introduction à IntelliJ](./LABO1)
 - Semaine 3: [Labo2 - GIT1](./LABO2)
 - Semaine 4: [Labo3 - Normes de codification](./LABO3)
-- Semaine 5: à venir
+- Semaine 5: [Labo4 - Librairie json-lib](./LABO4)
 - Semaine 6: à venir
 - Semaine 7: à venir
 - Semaine 8: à venir

@@ -17,7 +17,7 @@ Exercices
 ---------
 
 Pour ces exercices, utilisez les jar disponibles dans ce
-[répertoire](librairies/).
+[répertoire](https://github.com/jacquesberger/exemplesINF2050/tree/main/ateliers/json-lib/librairies).
 
 1. Écrivez un programme qui lit ce [document JSON](collection.json) et qui affiche à la
    console les informations suivantes :

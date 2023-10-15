@@ -28,7 +28,7 @@ extraire les données dont vous avez besoin :
 
 - `String jsonText = DiskFile.loadFileIntoString(String filename)` : Utilisez cette méthode 
 pour charger le contenu d'un fichier JSON en tant que chaîne de caractères JSON. Vous pourrez ensuite 
-travailler avec les données dans cette chaîne.
+travailler avec les données dans cette chaîne.*
 
 - `JSONObject object = (JSONObject) JSONSerializer.toJSON(String jsonText)` : Une fois que vous 
 avez chargé le contenu JSON en tant que chaîne de caractères, vous pouvez utiliser cette méthode 
@@ -51,3 +51,6 @@ par "{", vous utiliserez `getJSONObject(String clef)`.
 Ces outils et méthodes vous permettront de travailler efficacement avec des fichiers
 JSON en utilisant JSON-Lib. En comprenant comment créer et lire des données JSON, 
 vous serez en mesure de manipuler facilement ces données pour répondre à vos besoins de programmation.
+
+*DiskFile vous ai fourni par votre enseignant ici: [DiskFile](https://github.com/jacquesberger/JSONParsingExample/blob/master/src/main/java/org/jberger/jsonparsingexample/json/DiskFile.java)
+

@@ -8,8 +8,8 @@ Ce dépot contient les corrections des labos du groupe 30, n'hésitez pas à le 
 - Semaine 3: [Labo2 - GIT1](./LABO2)
 - Semaine 4: [Labo3 - Normes de codification](./LABO3)
 - Semaine 5: [Labo4 - Librairie json-lib](./LABO4)
-- Semaine 6: à venir
-- Semaine 7: à venir
+- Semaine 6: Pas de labo cette semaine (jour férié)
+- Semaine 7: [Labo4 - Librairie json-lib](./LABO5)
 - Semaine 8: à venir
 - Semaine 9: à venir
 - Semaine 10: à venir

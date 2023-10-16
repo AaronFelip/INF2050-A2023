@@ -4,6 +4,9 @@ avec des données JSON. Elle vous permet de créer, analyser et manipuler des ob
 en utilisant une syntaxe Java simple. Voici un résumé des principales méthodes et 
 fonctionnalités de la bibliothèque JSON.simple :
 
+### Télécharger la librairie :
+Veuillez suivre ce kien pour télécharger la librairie JSON.simple. [CLIQUEZ ICI](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/json-simple/json-simple-1.1.1.jar)
+
 ### Création d'objets JSON :
 `JSONObject` : Vous pouvez créer un objet JSON en utilisant la classe `JSONObject`. 
 Par exemple : `JSONObject json = new JSONObject();`.

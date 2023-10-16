@@ -62,6 +62,7 @@ public class AlbumStats {
      * ou de singles ayant un rating de 5.
      *
      * @param albums La liste d'albums à analyser.
+     * @param nomFicherJSON le nom du fichier
      */
     private static void calculerInformationsDansJSON( ArrayList < Album > albums, String nomFicherJSON ) {
 

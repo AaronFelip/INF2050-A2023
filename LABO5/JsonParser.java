@@ -67,6 +67,7 @@ public class JsonParser {
      * @param nomFichierJSON Le nom du fichier JSON à parser.
      * @return Une liste d'objets 'Album' contenant les données extraites du fichier JSON.
      * @throws IOException En cas d'erreur d'entrée/sortie lors de la lecture du fichier JSON.
+     * @throws ParseException En cas d'erreur d'entrée/sortie lors de la lecture du fichier JSON.
      */
     public static ArrayList<Album> jsonFileToAlbum(String nomFichierJSON) throws IOException, ParseException {
         ArrayList<Album> albums = new ArrayList<>();

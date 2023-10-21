@@ -10,7 +10,7 @@ Ce dépot contient les corrections des labos du groupe 30, n'hésitez pas à le 
 - Semaine 5: [Labo4 - Librairie json-lib](./LABO4)
 - Semaine 6: Pas de labo cette semaine (jour férié)
 - Semaine 7: [Labo5 - Librairie json.simpleb](./LABO5)
-- Semaine 8: à venir
+- Semaine 8: Pas de labo cette semaine
 - Semaine 9: à venir
 - Semaine 10: à venir
 - Semaine 11: à venir

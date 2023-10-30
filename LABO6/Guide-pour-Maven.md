@@ -113,6 +113,13 @@ vous remarquerez l'ajout un dossier nommé `Target` qui contiendra votre Jar.
 
 ![image](../LABO6/image/image1.png)
 
+Les plus allumé d'entre-vous auront surement remarqué que le nom du jar est donné depuis les premières
+lignes contenu dans le fichier `pom`;
+
+```agsl
+    <artifactId>labo-9</artifactId>
+    <version>1.0-SNAPSHOT</version>
+```
 
 #### Quoi ajouter au fichier pom
 

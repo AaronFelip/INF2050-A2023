@@ -1,0 +1,104 @@
+## Maven, guide d'utilisation rapide
+
+### Pour créer un projet Maven dans IntelliJ*
+Si aucun projet n'est actuellement ouvert dans IntelliJ IDEA, cliquez sur "Nouveau Projet" sur l'écran d'accueil. 
+Sinon, sélectionnez "Fichier | Nouveau | Projet" dans le menu principal.
+
+1- Donnez un nom au nouveau projet et modifiez son emplacement si nécessaire.
+
+2- Sélectionnez "Créer un dépôt Git" pour placer le nouveau projet sous contrôle de version. Vous pourrez 
+le faire ultérieurement à tout moment.
+
+3- Sélectionnez le langage que vous souhaitez utiliser dans votre projet, dans votre cas c'est `Java`. 
+Cliquez sur "Ajouter une application générale" si vous souhaitez ajouter d'autres langages disponibles 
+via des plugins.
+
+4- Sélectionnez "Maven" dans la liste des systèmes de construction.
+
+5- Spécifiez le JDK (Kit de développement Java) du projet ou utilisez celui par défaut.
+
+(L'option "Ajouter un code d'exemple" sélectionnée créera un fichier avec un exemple de code de base.)
+
+6- Dans les paramètres avancés, spécifiez les coordonnées Maven suivantes qui seront ajoutées au fichier `pom.xml` :
+
+- GroupId : le groupe du nouveau projet.
+- ArtifactId : le nom de votre projet.
+- Pour plus d'informations sur les coordonnées Maven, consultez les conventions de nommage Maven.
+
+7- Cliquez sur "Créer".
+
+IntelliJ IDEA crée un projet Maven avec le fichier pom.xml qui inclut les versions du compilateur 
+et de la cible Java, la fenêtre dédiée à Maven, ainsi que toutes les dépendances nécessaires pour 
+commencer votre travail.
+
+### Compilation avec Maven: de Maven à un JAR
+
+Toout d'abord il est nécéssaire d'installer Maven sur vos machine.
+
+Pour installer Maven sur vos machines:
+- Téléchargez Maven : Rendez-vous sur le site officiel d'Apache Maven (https://maven.apache.org/download.cgi) 
+et téléchargez la dernière version de Maven pour votre système d'exploitation. Assurez-vous de télécharger le 
+fichier binaire (binaries).
+
+- Installez Maven : Une fois le téléchargement terminé, suivez les instructions d'installation spécifiques à votre 
+système d'exploitation. En général, cela consiste à extraire l'archive téléchargée vers un répertoire de votre 
+choix sur votre système.
+
+- Configurez la variable d'environnement PATH : Pour que vous puissiez exécuter la commande mvn depuis n'importe 
+quel emplacement de votre système, vous devez ajouter le répertoire bin de l'installation de Maven à votre 
+variable d'environnement PATH. La manière de le faire varie selon votre système d'exploitation :
+
+Sur Windows : Ajoutez le chemin du répertoire bin de l'installation de Maven à la variable PATH. 
+Vous pouvez le faire en recherchant "Variables d'environnement" dans les paramètres système.
+
+Sur Linux/macOS : Modifiez votre fichier ~/.bashrc, ~/.bash_profile, ou ~/.zshrc en ajoutant la ligne suivante :
+```agsl
+export PATH=/chemin/vers/votre/repertoire/maven/bin:$PATH
+```
+
+Assurez-vous de remplacer /chemin/vers/votre/repertoire/maven par le chemin réel de votre installation Maven.
+
+Vérifiez l'installation : Ouvrez un nouveau terminal ou invite de commandes et exécutez à nouveau la commande 
+mvn clean package. Vous devriez maintenant être en mesure de lancer Maven.
+
+Vous pouvez alors utiliser les commandes suivantes:
+
+- `mvn compile` compile le projet
+- `mvn test` compile et teste le projet
+- `mvn package` compile, teste et transforme le projet en un fichier `.jar` dans 
+- le dossier `target`.
+- `mvn clean` supprime le contenu du dossier target.
+
+Note: Vous pouvez combiner ces commandes, par exemple avec `mvn clean package`.
+
+#### Le dossier target
+Lorsque vous aurez fait la commande `mvn package` 
+vous remarquerez l'ajout un dossier nommé `Target` qui contiendra votre Jar.  
+  
+
+![image](../LABO6/image/image1.png)
+
+
+#### Quoi ajouter au fichier pom
+
+Afin d'automatiser le processus votre fichier `pom.xml` doit contenir ceci:
+
+```agsl
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+```
+
+Pour en apprendre plus, référez-vous au [guide Maven](https://maven.apache.org/guides/getting-started/index.html).
+
+
+*[Traduis en français depuis le site officiel de Jetbrains](https://www.jetbrains.com/help/idea/maven-support.html)

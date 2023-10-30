@@ -31,6 +31,41 @@ IntelliJ IDEA crée un projet Maven avec le fichier pom.xml qui inclut les versi
 et de la cible Java, la fenêtre dédiée à Maven, ainsi que toutes les dépendances nécessaires pour 
 commencer votre travail.
 
+####
+Ajoutez vos dépendences afin d'obtenir un fichier `pom` tel que nous avons en labo:
+
+```agsl
+<dependencies>
+        <dependency>
+            <groupId>net.sf.json-lib</groupId>
+            <artifactId>json-lib</artifactId>
+            <version>2.4</version>
+            <classifier>jdk15</classifier>
+        </dependency>
+
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.2</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.8.0</version>
+        </dependency>
+    </dependencies>
+```
+Il possible de trouver les librairies sur le site de Maven: [https://mvnrepository.com/](https://mvnrepository.com/)
+
 ### Compilation avec Maven: de Maven à un JAR
 
 Toout d'abord il est nécéssaire d'installer Maven sur vos machine.

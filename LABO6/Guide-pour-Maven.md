@@ -110,21 +110,6 @@ Vous pouvez alors utiliser les commandes suivantes:
 
 Note: Vous pouvez combiner ces commandes, par exemple avec `mvn clean package`.
 
-#### Le dossier target
-Lorsque vous aurez fait la commande `mvn package` 
-vous remarquerez l'ajout un dossier nommé `Target` qui contiendra votre Jar.  
-  
-
-![image](../LABO6/image/image1.png)
-
-Les plus allumé d'entre-vous auront surement remarqué que le nom du jar est donné depuis les premières
-lignes contenu dans le fichier `pom`;
-
-```agsl
-    <artifactId>labo-9</artifactId>
-    <version>1.0-SNAPSHOT</version>
-```
-
 #### Quoi ajouter au fichier pom
 
 Afin d'automatiser le processus votre fichier `pom.xml` doit contenir ceci:
@@ -143,6 +128,22 @@ Afin d'automatiser le processus votre fichier `pom.xml` doit contenir ceci:
         </plugins>
     </build>
 ```
+
+#### Le dossier target
+Lorsque vous aurez fait la commande `mvn package` 
+vous remarquerez l'ajout un dossier nommé `Target` qui contiendra votre Jar.  
+  
+
+![image](../LABO6/image/image1.png)
+
+Les plus allumé d'entre-vous auront surement remarqué que le nom du jar est donné depuis les premières
+lignes contenu dans le fichier `pom`;
+
+```agsl
+    <artifactId>labo-9</artifactId>
+    <version>1.0-SNAPSHOT</version>
+```
+
 
 Pour en apprendre plus, référez-vous au [guide Maven](https://maven.apache.org/guides/getting-started/index.html).
 

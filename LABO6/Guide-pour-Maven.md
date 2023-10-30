@@ -93,8 +93,12 @@ export PATH=/chemin/vers/votre/repertoire/maven/bin:$PATH
 
 Assurez-vous de remplacer /chemin/vers/votre/repertoire/maven par le chemin réel de votre installation Maven.
 
-Vérifiez l'installation : Ouvrez un nouveau terminal ou invite de commandes et exécutez à nouveau la commande 
-mvn clean package. Vous devriez maintenant être en mesure de lancer Maven.
+Vérifiez l'installation : Ouvrez un nouveau terminal ou invite de commandes et exécutez la commande 
+`mvn clean package` ou `mvn version`. Si vous obtenez un résultat, même si c'est du charabiat, vous êtes good to go!
+Vous devriez maintenant être en mesure de lancer Maven. Si cela ne marche pas, essayer ceci:
+- Allez à la racine de votre projet de session.
+- Refaite l'étape qui consiste à changer la variable d'environnement PATH
+- Si cela ne marche toujours pas, prenez un marteau et défoncez votre ordinateur jusqu'à ce que ca marche.
 
 Vous pouvez alors utiliser les commandes suivantes:
 

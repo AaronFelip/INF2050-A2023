@@ -11,8 +11,8 @@ Ce dépot contient les corrections des labos du groupe 30, n'hésitez pas à le 
 - Semaine 6: Pas de labo cette semaine (jour férié)
 - Semaine 7: [Labo5 - Librairie json.simple](./LABO5)
 - Semaine 8: Pas de labo cette semaine
-- Semaine 9: [Labo6 - Maveb](./LABO6)
-- Semaine 10: à venir
+- Semaine 9: [Labo6 - Maven](./LABO6)
+- Semaine 10: [Labo7 - JUnit](./LABO6)
 - Semaine 11: à venir
 - Semaine 12: à venir
 - Semaine 13: à venir

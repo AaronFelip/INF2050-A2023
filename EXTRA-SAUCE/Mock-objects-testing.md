@@ -4,7 +4,7 @@
 #### Partie 3: Ajout dans le pom.xml
 
 
-### Présentationi de Mockito
+### Présentation de Mockito
 Un mock object (objet simulé) est un objet créé pour simuler le comportement d'un objet réel, 
 souvent dans le contexte de tests unitaires. L'utilisation de mock objects est une pratique 
 courante en programmation orientée objet, et elle est particulièrement répandue dans le domaine 

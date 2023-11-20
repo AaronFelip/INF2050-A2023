@@ -1,4 +1,4 @@
-### Solutionnaire
+### Solutionnaire et guide d'utilisation rapide pour GIT
 
 1 - Clonez un ancien TP de programmation
 

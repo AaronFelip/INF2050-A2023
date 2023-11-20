@@ -13,8 +13,8 @@ Ce dépot contient les corrections des labos du groupe 30, n'hésitez pas à le 
 - Semaine 8: Pas de labo cette semaine
 - Semaine 9: [Labo6 - Maven](./LABO6)
 - Semaine 10: [Labo7 - JUnit](./LABO7)
-- Semaine 11: à venir
-- Semaine 12: à venir
+- Semaine 11: [Labo8 - Refactoring et tests unitaire](./LABO8)
+- Semaine 12: [Labo9 - GIT2](./LABO9)
 - Semaine 13: à venir
 - Semaine 14: à venir
 - Semaine 15: à venir
